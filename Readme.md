@@ -11,7 +11,7 @@ To install and run PerformanceTracker locally, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/NitinV84/PerformanceTracker.git
+    git clone https://github.com/VidhanCodiatic/PerformanceTracker.git
     cd PerformanceTracker
     ```
 
@@ -60,12 +60,18 @@ To install and run PerformanceTracker locally, follow these steps:
 
 # Method Two :-
 
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/VidhanCodiatic/PerformanceTracker.git
+    cd PerformanceTracker
+    ```
+
 1. **Create a virtual environment and activate:**
 
     ```bash
     python -m venv env
     source env/bin/activate  # On Windows, use `env\Scripts\activate`
-    pip install -r requirements.txt
     ```
 
 2. **Build docker image:**
@@ -85,7 +91,6 @@ To install and run PerformanceTracker locally, follow these steps:
     ```bash
     docker-compose down
     ```
-
 
 ## Challenges Faced and Overcame
 
@@ -109,4 +114,4 @@ We welcome contributions from the community! If you encounter any issues or have
 
 ## License
 
-This project is licensed under the [Nitin Verma](LICENSE) license.
+This project is licensed under the [Vidhan Sharma](LICENSE) license.
